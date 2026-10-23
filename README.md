@@ -21,6 +21,13 @@ BiblioTech est un site web qui permet de gérer les clients, les livres et les c
 - JSON
 - Git et GitHub
 
+## Structure du projet
+
+- `index.html` : page principale.
+- `css/` : fichier CSS.
+- `data/` : fichiers JSON.
+- `js/` : modules JavaScript.
+
 ## Lancement
 
 Ouvrir le projet avec un serveur local pour charger les fichiers JSON, puis accéder au site depuis le navigateur.
