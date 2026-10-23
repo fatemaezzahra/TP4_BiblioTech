@@ -1,0 +1,205 @@
+/* Style général */
+body {
+    margin: 0;
+    background-color: #FAF4ED;
+    color: #2C1810;
+    font-family: Arial, sans-serif;
+}
+
+/* En-tête */
+.site-header {
+    background-color: #2C1810;
+    color: #FAF4ED;
+    text-align: start;
+}
+
+.site-header h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.site-header p {
+    color: #E8D7C5;
+}
+
+/* Titres des sections */
+.section-title {
+    color: #3D0C02;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Cartes des indicateurs */
+.stat-card {
+    height: 100%;
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid #E5D5C5;
+    box-shadow: 0 3px 8px rgba(44, 24, 16, 0.08);
+}
+
+.stat-card h3 {
+    font-size: 1rem;
+    color: #6B4B3E;
+}
+
+.stat-card p {
+    margin: 10px 0 0;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #B84A00;
+}
+
+/* Zone de recherche et filtres */
+.filter-section {
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid #E5D5C5;
+    box-shadow: 0 3px 8px rgba(44, 24, 16, 0.05);
+}
+
+/* Champs de formulaire */
+.form-control,
+.form-select {
+    border-color: #D6C2AF;
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color: #B84A00;
+    box-shadow: 0 0 0 0.2rem rgba(184, 74, 0, 0.15);
+}
+
+/* Cartes des commandes */
+.order-card {
+    height: 100%;
+    border: 1px solid #E5D5C5;
+    border-radius: 10px;
+    background-color: white;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.order-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 5px 14px rgba(44, 24, 16, 0.12);
+}
+
+.order-card .card-title {
+    color: #3D0C02;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Catégories des livres */
+.book-category {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #F5E3D2;
+    color: #6A2A0A;
+    border-radius: 20px;
+    font-size: 0.85rem;
+}
+
+/* Statuts des commandes */
+.order-status {
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.status-delivered {
+    color: #198754;
+}
+
+.status-pending {
+    color: #B84A00;
+}
+
+.status-cancelled {
+    color: #B02A37;
+}
+
+/* Boutons */
+.btn-primary {
+    background-color: #B84A00;
+    border-color: #B84A00;
+}
+
+.btn-primary:hover {
+    background-color: #8F3900;
+    border-color: #8F3900;
+}
+
+/* Tableau des détails d'une commande */
+.table {
+    vertical-align: middle;
+}
+
+.table thead th {
+    background-color: #2C1810;
+    color: #FAF4ED;
+}
+
+/* Pied de page */
+.site-footer {
+    background-color: #2C1810;
+    color: #FAF4ED;
+    padding: 35px 0 15px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.site-footer h5 {
+    color: #FAF4ED;
+    margin-bottom: 15px;
+}
+
+.site-footer p {
+    color: #FAF4ED;
+    margin-bottom: 15px;
+}
+
+.site-footer .copyright {
+    font-size: 14px;
+    color: #FAF4ED;
+    margin-bottom: 0;
+}
+
+.footer-links a {
+    color: #E8D7C5;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    color: white;
+}
+
+/* Message d'erreur */
+#errorMessage {
+    margin-bottom: 1rem;
+}
+
+/* Adaptation aux petits écrans */
+@media (max-width: 576px) {
+    .site-header h1 {
+        font-size: 2rem;
+    }
+
+    .stat-card {
+        padding: 15px;
+    }
+
+    .filter-section {
+        padding: 15px;
+    }
+
+    .footer-links a {
+        display: inline-block;
+        margin: 8px;
+    }
+
+    .site-footer {
+        padding: 25px 10px 15px;
+    }
+}
