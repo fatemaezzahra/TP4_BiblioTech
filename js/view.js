@@ -8,7 +8,7 @@ import {
     getTotalOrderValue
 } from "./selectors.js";
 
-// Afficher les indicateurs
+
 export function renderIndicators() {
     document.getElementById("totalCustomers").textContent =
         state.customers.length;
@@ -25,7 +25,7 @@ export function renderIndicators() {
         totalValue.toLocaleString("fr-MA") + " DH";
 }
 
-// Afficher les catégories des livres
+
 export function renderCategories() {
     const categorySelect = document.getElementById("categoryFilter");
 
@@ -42,7 +42,7 @@ export function renderCategories() {
     });
 }
 
-// Afficher les commandes
+
 export function renderOrders() {
     const ordersContainer = document.getElementById("ordersContainer");
     const filteredOrders = getFilteredOrders();
@@ -114,7 +114,7 @@ export function renderOrders() {
     });
 }
 
-// Afficher les détails d'une commande
+
 export function renderOrderDetails(orderId) {
     const order = state.orders.find(
         item => item.id === Number(orderId)

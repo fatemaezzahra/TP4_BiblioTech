@@ -1,4 +1,3 @@
-/* Style général */
 body {
     margin: 0;
     background-color: #FAF4ED;
@@ -6,7 +5,6 @@ body {
     font-family: Arial, sans-serif;
 }
 
-/* En-tête */
 .site-header {
     background-color: #2C1810;
     color: #FAF4ED;
@@ -23,13 +21,11 @@ body {
     color: #E8D7C5;
 }
 
-/* Titres des sections */
 .section-title {
     color: #3D0C02;
     font-family: 'Times New Roman', Times, serif;
 }
 
-/* Cartes des indicateurs */
 .stat-card {
     height: 100%;
     padding: 20px;
@@ -52,7 +48,6 @@ body {
     color: #B84A00;
 }
 
-/* Zone de recherche et filtres */
 .filter-section {
     padding: 20px;
     background-color: white;
@@ -61,7 +56,6 @@ body {
     box-shadow: 0 3px 8px rgba(44, 24, 16, 0.05);
 }
 
-/* Champs de formulaire */
 .form-control,
 .form-select {
     border-color: #D6C2AF;
@@ -73,7 +67,6 @@ body {
     box-shadow: 0 0 0 0.2rem rgba(184, 74, 0, 0.15);
 }
 
-/* Cartes des commandes */
 .order-card {
     height: 100%;
     border: 1px solid #E5D5C5;
@@ -92,7 +85,6 @@ body {
     font-family: 'Times New Roman', Times, serif;
 }
 
-/* Catégories des livres */
 .book-category {
     display: inline-block;
     padding: 5px 10px;
@@ -102,7 +94,6 @@ body {
     font-size: 0.85rem;
 }
 
-/* Statuts des commandes */
 .order-status {
     font-size: 0.9rem;
     font-weight: bold;
@@ -120,7 +111,6 @@ body {
     color: #B02A37;
 }
 
-/* Boutons */
 .btn-primary {
     background-color: #B84A00;
     border-color: #B84A00;
@@ -131,7 +121,6 @@ body {
     border-color: #8F3900;
 }
 
-/* Tableau des détails d'une commande */
 .table {
     vertical-align: middle;
 }
@@ -141,7 +130,6 @@ body {
     color: #FAF4ED;
 }
 
-/* Pied de page */
 .site-footer {
     background-color: #2C1810;
     color: #FAF4ED;
@@ -175,12 +163,10 @@ body {
     color: white;
 }
 
-/* Message d'erreur */
 #errorMessage {
     margin-bottom: 1rem;
 }
 
-/* Adaptation aux petits écrans */
 @media (max-width: 576px) {
     .site-header h1 {
         font-size: 2rem;
