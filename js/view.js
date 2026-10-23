@@ -4,7 +4,8 @@ import {
     getCustomer,
     getProduct,
     getFilteredOrders,
-    getOrderTotal
+    getOrderTotal,
+    getTotalOrderValue
 } from "./selectors.js";
 
 // Afficher les indicateurs
@@ -18,9 +19,7 @@ export function renderIndicators() {
     document.getElementById("totalOrders").textContent =
         state.orders.length;
 
-    const totalValue = state.orders.reduce((total, order) => {
-        return total + getOrderTotal(order);
-    }, 0);
+    const totalValue = getTotalOrderValue();
 
     document.getElementById("totalValue").textContent =
         totalValue.toLocaleString("fr-MA") + " DH";
