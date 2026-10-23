@@ -49,8 +49,8 @@ async function initApp() {
 
         if (errorContainer) {
             errorContainer.classList.remove("d-none");
-            errorContainer.textContent =
-                "Impossible de charger les données. Vérifiez les fichiers JSON et réessayez.";
+            errorContainer.textContent = 
+            "Erreur de chargement des données. Vérifiez votre connexion au serveur local et les fichiers JSON.";
         }
     }
 }
